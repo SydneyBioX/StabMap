@@ -1,108 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/404.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/articles/index.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/articles/stabMap_PBMC_Multiome.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/authors.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/index.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/news/index.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/adaptiveKNN.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/allEqual.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/buildLabelsDataFrame.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/classifyEmbedding.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/combineBinaryErrors.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/dot-runOps.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/getAdaptiveK.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/getArgMin.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/getBestColumn.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/getBinaryError.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/getBinaryErrorFromPredictions.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/getModeFirst.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/getQueryK.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/gm_mean.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/grapes-pred-grapes.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/grapes-projpred-grapes.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/grapes-times-1-grapes.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/grapes-times-times-grapes.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/imputeEmbedding.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/index.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/isUnequal.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/mockMosaicData.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/mosaicDataTopology.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/mosaicDataUpSet.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/queryNamedKNN.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/reWeightEmbedding.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/smoothLocal.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/stabMap.html</loc>
-  </url>
-  <url>
-    <loc>https://sydneybiox.github.io/StabMap/reference/vectorSubset.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://sydneybiox.github.io/StabMap/404.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/articles/index.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/articles/stabMap_PBMC_Multiome.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/authors.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/index.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/news/index.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/adaptiveKNN.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/allEqual.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/buildLabelsDataFrame.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/classifyEmbedding.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/combineBinaryErrors.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/dot-runOps.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/getAdaptiveK.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/getArgMin.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/getBestColumn.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/getBinaryError.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/getBinaryErrorFromPredictions.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/getModeFirst.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/getQueryK.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/gm_mean.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/grapes-pred-grapes.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/grapes-projpred-grapes.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/grapes-times-1-grapes.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/grapes-times-times-grapes.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/imputeEmbedding.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/index.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/isUnequal.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/mockMosaicData.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/mosaicDataTopology.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/mosaicDataUpSet.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/queryNamedKNN.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/reWeightEmbedding.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/selectFeatures.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/smoothLocal.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/stabMap.html</loc></url>
+<url><loc>https://sydneybiox.github.io/StabMap/reference/vectorSubset.html</loc></url>
 </urlset>
+
