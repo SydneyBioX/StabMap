@@ -136,7 +136,8 @@ that each row of the training set.</p>
 
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="co"># Simulate coordinates</span></span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/Random.html" class="external-link">set.seed</a></span><span class="op">(</span><span class="fl">100</span><span class="op">)</span></span></span>
+<span class="r-in"><span><span class="co"># Simulate coordinates</span></span></span>
 <span class="r-in"><span><span class="va">coords</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/matrix.html" class="external-link">matrix</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/stats/Normal.html" class="external-link">rnorm</a></span><span class="op">(</span><span class="fl">1000</span><span class="op">)</span>, <span class="fl">100</span>, <span class="fl">10</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/colnames.html" class="external-link">rownames</a></span><span class="op">(</span><span class="va">coords</span><span class="op">)</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html" class="external-link">paste0</a></span><span class="op">(</span><span class="st">"cell_"</span>, <span class="fl">1</span><span class="op">:</span><span class="fu"><a href="https://rdrr.io/r/base/nrow.html" class="external-link">nrow</a></span><span class="op">(</span><span class="va">coords</span><span class="op">)</span><span class="op">)</span></span></span>
 <span class="r-in"><span></span></span>
@@ -152,7 +153,7 @@ that each row of the training set.</p>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/table.html" class="external-link">table</a></span><span class="op">(</span><span class="va">knn_out</span><span class="op">$</span><span class="va">predicted_labels</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> type_a type_b type_c type_d type_e </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>     17     36     15     19     13 </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     23     18     24     19     16 </span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Adaptive KNN classification using local error</span></span></span>
 <span class="r-in"><span><span class="va">knn_out</span> <span class="op">&lt;-</span> <span class="fu">classifyEmbedding</span><span class="op">(</span></span></span>
@@ -226,7 +227,7 @@ that each row of the training set.</p>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/table.html" class="external-link">table</a></span><span class="op">(</span><span class="va">knn_out</span><span class="op">$</span><span class="va">predicted_labels</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> type_a type_b type_c type_d type_e </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>     17     22     18     22     21 </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     24     14     23     18     21 </span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="va">knn_out</span> <span class="op">&lt;-</span> <span class="fu">classifyEmbedding</span><span class="op">(</span></span></span>
 <span class="r-in"><span>  <span class="va">coords</span>, <span class="va">labels</span>,</span></span>
@@ -298,7 +299,7 @@ that each row of the training set.</p>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/table.html" class="external-link">table</a></span><span class="op">(</span><span class="va">knn_out</span><span class="op">$</span><span class="va">predicted_labels</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> type_a type_b type_c type_d type_e </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>     17     21     19     22     21 </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     23     16     22     19     20 </span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Adaptive KNN classification using uniform optimised with balanced error</span></span></span>
 <span class="r-in"><span><span class="va">knn_out</span> <span class="op">&lt;-</span> <span class="fu">classifyEmbedding</span><span class="op">(</span></span></span>
@@ -352,7 +353,7 @@ that each row of the training set.</p>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/table.html" class="external-link">table</a></span><span class="op">(</span><span class="va">knn_out</span><span class="op">$</span><span class="va">predicted_labels</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> type_a type_b type_c type_d type_e </span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>     17     23     20     23     17 </span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>     23     17     22     19     19 </span>
 <span class="r-in"><span></span></span>
 </code></pre></div>
     </div>

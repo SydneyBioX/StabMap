@@ -272,10 +272,10 @@ nodes with at least one overlapping feature.</p>
 <div class="sourceCode" id="cb32"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">mdt</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/mosaicDataTopology.html">mosaicDataTopology</a></span><span class="op">(</span><span class="va">assay_list</span><span class="op">)</span></span>
 <span><span class="va">mdt</span></span></code></pre></div>
-<pre><code><span><span class="co">## IGRAPH 84f7a02 UN-- 2 1 -- </span></span>
+<pre><code><span><span class="co">## IGRAPH 45affb8 UN-- 2 1 -- </span></span>
 <span><span class="co">## + attr: name (v/c), frame.color (v/c), color (v/c), label.color (v/c),</span></span>
 <span><span class="co">## | label.family (v/c)</span></span>
-<span><span class="co">## + edge from 84f7a02 (vertex names):</span></span>
+<span><span class="co">## + edge from 45affb8 (vertex names):</span></span>
 <span><span class="co">## [1] RNA--Multiome</span></span></code></pre>
 <div class="sourceCode" id="cb34"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">mdt</span><span class="op">)</span></span></code></pre></div>
@@ -560,10 +560,10 @@ inspected and plotted.</p>
 <div class="sourceCode" id="cb69"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">mdt_indirect</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/mosaicDataTopology.html">mosaicDataTopology</a></span><span class="op">(</span><span class="va">assay_list_indirect</span><span class="op">)</span></span>
 <span><span class="va">mdt_indirect</span></span></code></pre></div>
-<pre><code><span><span class="co">## IGRAPH d4027a7 UN-- 3 2 -- </span></span>
+<pre><code><span><span class="co">## IGRAPH aeeb398 UN-- 3 2 -- </span></span>
 <span><span class="co">## + attr: name (v/c), frame.color (v/c), color (v/c), label.color (v/c),</span></span>
 <span><span class="co">## | label.family (v/c)</span></span>
-<span><span class="co">## + edges from d4027a7 (vertex names):</span></span>
+<span><span class="co">## + edges from aeeb398 (vertex names):</span></span>
 <span><span class="co">## [1] RNA     --Multiome Multiome--ATAC</span></span></code></pre>
 <div class="sourceCode" id="cb71"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">mdt_indirect</span><span class="op">)</span></span></code></pre></div>
@@ -657,7 +657,7 @@ the mosaic data integration is meaningful.</p>
 <span><span class="co">##  [5] S4Arrays_1.4.1              abind_1.4-5                </span></span>
 <span><span class="co">##  [7] Matrix_1.7-0                gridExtra_2.3              </span></span>
 <span><span class="co">##  [9] SingleCellMultiModal_1.16.0 MultiAssayExperiment_1.30.3</span></span>
-<span><span class="co">## [11] scran_1.32.0                scater_1.32.0              </span></span>
+<span><span class="co">## [11] scran_1.32.0                scater_1.32.1              </span></span>
 <span><span class="co">## [13] ggplot2_3.5.1               scuttle_1.14.0             </span></span>
 <span><span class="co">## [15] SingleCellExperiment_1.26.0 SummarizedExperiment_1.34.0</span></span>
 <span><span class="co">## [17] Biobase_2.64.0              GenomicRanges_1.56.1       </span></span>
@@ -677,13 +677,13 @@ the mosaic data integration is meaningful.</p>
 <span><span class="co">##  [13] BiocBaseUtils_1.6.0       AnnotationHub_3.12.0     </span></span>
 <span><span class="co">##  [15] curl_5.2.1                BiocNeighbors_1.22.0     </span></span>
 <span><span class="co">##  [17] Rhdf5lib_1.26.0           sass_0.4.9               </span></span>
-<span><span class="co">##  [19] bslib_0.7.0               desc_1.4.3               </span></span>
+<span><span class="co">##  [19] bslib_0.8.0               desc_1.4.3               </span></span>
 <span><span class="co">##  [21] plyr_1.8.9                cachem_1.1.0             </span></span>
 <span><span class="co">##  [23] igraph_2.0.3              mime_0.12                </span></span>
 <span><span class="co">##  [25] lifecycle_1.0.4           pkgconfig_2.0.3          </span></span>
 <span><span class="co">##  [27] rsvd_1.0.5                R6_2.5.1                 </span></span>
 <span><span class="co">##  [29] fastmap_1.2.0             GenomeInfoDbData_1.2.12  </span></span>
-<span><span class="co">##  [31] digest_0.6.36             colorspace_2.1-0         </span></span>
+<span><span class="co">##  [31] digest_0.6.36             colorspace_2.1-1         </span></span>
 <span><span class="co">##  [33] AnnotationDbi_1.66.0      dqrng_0.4.1              </span></span>
 <span><span class="co">##  [35] irlba_2.3.5.1             ExperimentHub_2.12.0     </span></span>
 <span><span class="co">##  [37] textshaping_0.4.0         RSQLite_2.3.7            </span></span>
@@ -704,23 +704,23 @@ the mosaic data integration is meaningful.</p>
 <span><span class="co">##  [67] utf8_1.2.4                XVector_0.44.0           </span></span>
 <span><span class="co">##  [69] RcppAnnoy_0.0.22          ggrepel_0.9.5            </span></span>
 <span><span class="co">##  [71] BiocVersion_3.19.1        pillar_1.9.0             </span></span>
-<span><span class="co">##  [73] limma_3.60.3              dplyr_1.1.4              </span></span>
+<span><span class="co">##  [73] limma_3.60.4              dplyr_1.1.4              </span></span>
 <span><span class="co">##  [75] BiocFileCache_2.12.0      lattice_0.22-6           </span></span>
 <span><span class="co">##  [77] bit_4.0.5                 tidyselect_1.2.1         </span></span>
 <span><span class="co">##  [79] locfit_1.5-9.10           Biostrings_2.72.1        </span></span>
 <span><span class="co">##  [81] knitr_1.48                bookdown_0.40            </span></span>
-<span><span class="co">##  [83] edgeR_4.2.0               xfun_0.45                </span></span>
+<span><span class="co">##  [83] edgeR_4.2.1               xfun_0.46                </span></span>
 <span><span class="co">##  [85] statmod_1.5.0             UCSC.utils_1.0.0         </span></span>
-<span><span class="co">##  [87] yaml_2.3.9                evaluate_0.24.0          </span></span>
+<span><span class="co">##  [87] yaml_2.3.10               evaluate_0.24.0          </span></span>
 <span><span class="co">##  [89] codetools_0.2-20          tibble_3.2.1             </span></span>
 <span><span class="co">##  [91] BiocManager_1.30.23       cli_3.6.3                </span></span>
 <span><span class="co">##  [93] uwot_0.2.2                systemfonts_1.1.0        </span></span>
 <span><span class="co">##  [95] munsell_0.5.1             jquerylib_0.1.4          </span></span>
-<span><span class="co">##  [97] Rcpp_1.0.12               dbplyr_2.5.0             </span></span>
+<span><span class="co">##  [97] Rcpp_1.0.13               dbplyr_2.5.0             </span></span>
 <span><span class="co">##  [99] png_0.1-8                 parallel_4.4.1           </span></span>
 <span><span class="co">## [101] pkgdown_2.1.0             blob_1.2.4               </span></span>
 <span><span class="co">## [103] sparseMatrixStats_1.16.0  SpatialExperiment_1.14.0 </span></span>
-<span><span class="co">## [105] slam_0.1-50               viridisLite_0.4.2        </span></span>
+<span><span class="co">## [105] slam_0.1-51               viridisLite_0.4.2        </span></span>
 <span><span class="co">## [107] scales_1.3.0              purrr_1.0.2              </span></span>
 <span><span class="co">## [109] crayon_1.5.3              rlang_1.1.4              </span></span>
 <span><span class="co">## [111] KEGGREST_1.44.1</span></span></code></pre>
