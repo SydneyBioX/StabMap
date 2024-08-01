@@ -20,7 +20,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">StabMap</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.99.3</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.99.4</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -272,10 +272,10 @@ nodes with at least one overlapping feature.</p>
 <div class="sourceCode" id="cb32"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">mdt</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/mosaicDataTopology.html">mosaicDataTopology</a></span><span class="op">(</span><span class="va">assay_list</span><span class="op">)</span></span>
 <span><span class="va">mdt</span></span></code></pre></div>
-<pre><code><span><span class="co">## IGRAPH b797d9a UN-- 2 1 -- </span></span>
+<pre><code><span><span class="co">## IGRAPH 285cd76 UN-- 2 1 -- </span></span>
 <span><span class="co">## + attr: name (v/c), frame.color (v/c), color (v/c), label.color (v/c),</span></span>
 <span><span class="co">## | label.family (v/c)</span></span>
-<span><span class="co">## + edge from b797d9a (vertex names):</span></span>
+<span><span class="co">## + edge from 285cd76 (vertex names):</span></span>
 <span><span class="co">## [1] RNA--Multiome</span></span></code></pre>
 <div class="sourceCode" id="cb34"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">mdt</span><span class="op">)</span></span></code></pre></div>
@@ -560,10 +560,10 @@ inspected and plotted.</p>
 <div class="sourceCode" id="cb69"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">mdt_indirect</span> <span class="op">&lt;-</span> <span class="fu"><a href="../reference/mosaicDataTopology.html">mosaicDataTopology</a></span><span class="op">(</span><span class="va">assay_list_indirect</span><span class="op">)</span></span>
 <span><span class="va">mdt_indirect</span></span></code></pre></div>
-<pre><code><span><span class="co">## IGRAPH d36436c UN-- 3 2 -- </span></span>
+<pre><code><span><span class="co">## IGRAPH 87d22cf UN-- 3 2 -- </span></span>
 <span><span class="co">## + attr: name (v/c), frame.color (v/c), color (v/c), label.color (v/c),</span></span>
 <span><span class="co">## | label.family (v/c)</span></span>
-<span><span class="co">## + edges from d36436c (vertex names):</span></span>
+<span><span class="co">## + edges from 87d22cf (vertex names):</span></span>
 <span><span class="co">## [1] RNA     --Multiome Multiome--ATAC</span></span></code></pre>
 <div class="sourceCode" id="cb71"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/graphics/plot.default.html" class="external-link">plot</a></span><span class="op">(</span><span class="va">mdt_indirect</span><span class="op">)</span></span></code></pre></div>
@@ -664,7 +664,7 @@ the mosaic data integration is meaningful.</p>
 <span><span class="co">## [19] GenomeInfoDb_1.40.1         IRanges_2.38.1             </span></span>
 <span><span class="co">## [21] S4Vectors_0.42.1            BiocGenerics_0.50.0        </span></span>
 <span><span class="co">## [23] MatrixGenerics_1.16.0       matrixStats_1.3.0          </span></span>
-<span><span class="co">## [25] magrittr_2.0.3              StabMap_0.99.3             </span></span>
+<span><span class="co">## [25] magrittr_2.0.3              StabMap_0.99.4             </span></span>
 <span><span class="co">## [27] BiocStyle_2.32.1           </span></span>
 <span><span class="co">## </span></span>
 <span><span class="co">## loaded via a namespace (and not attached):</span></span>
